@@ -18,7 +18,7 @@ class MusicLibrary:
         return self.music_lib
 
     def add_music(self, title, artist, year):
-        self.music_lib.append(Music(title=title, artist=artist, year=year)
+        self.music_lib.append(Music(title=title, artist=artist, year=year))
 
     def get_one_music_by_title(self, title):
         all_musics = self.get_all_musics()
